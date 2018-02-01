@@ -9,3 +9,4 @@ destructivelyAppendKitten('Ralph')
 
 function destructivelyPrependKitten(name)
 return kittens.unshift(name)
+}
