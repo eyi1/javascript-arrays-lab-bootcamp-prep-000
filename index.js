@@ -1,8 +1,8 @@
 const app = "I don't do much."
-var kittens = ['Milo', 'Otis', 'Garfield'];
+var window.kittens = ['Milo', 'Otis', 'Garfield'];
 
 function destructivelyAppendKitten(name){
-  return kittens[kittens,...name]
+  return window.kittens[kittens,...'Cherry']
 }
 
-destructivelyAppendKitten("Cherry")
+
